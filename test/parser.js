@@ -1,11 +1,11 @@
-const FeedReader = require('../')
+const FeedParser = require('../')
 
 const urls = [
   'https://www.youtube.com/feeds/videos.xml?channel_id=UCsvMopMspsGw89AWim0FMfw',
   'http://www.dailymail.co.uk/articles.rss'
 ]
 
-const feed = new FeedReader(urls, {
+const feed = new FeedParser(urls, {
   flatten: true,
   sort: { key: 'title', order: 'asc' }
 })

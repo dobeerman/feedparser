@@ -17,7 +17,7 @@ $ yarn add dobeerman/feedparser
 ### Usage
 
 ```js
-const feed = new FeedReader(urls, {
+const feed = new FeedParser(urls, {
   flatten: true, // to be flatten instead of Array of Arrays
   sort: { key: 'title', order: 'asc' }
 })
