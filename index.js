@@ -2,7 +2,7 @@
  * Export feedparser
  */
 
-exports = module.exports = require('./lib/FeedReader')
+exports = module.exports = require('./lib/feedparser')
 
 /*
   Export the version

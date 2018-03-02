@@ -2,7 +2,19 @@
 
 RSS and Atom parser
 
-Usage:
+### Installation
+
+```
+$ npm install dobeerman/feedparser
+```
+
+or using `yarn`:
+
+```
+$ yarn add dobeerman/feedparser
+```
+
+### Usage
 
 ```js
 const feed = new FeedReader(urls, {
