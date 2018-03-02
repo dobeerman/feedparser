@@ -4,5 +4,12 @@
     "cheerio": "^1.0.0-rc.2",
     "iconv-lite": "^0.4.19",
     "xml2js": "^0.4.19"
-  }
+  },
+  "name": "feedparser",
+  "version": "0.0.1",
+  "description": "RSS and Atom feed parser",
+  "main": "index.js",
+  "repository": "git@github.com:dobeerman/feedparser.git",
+  "author": "Alexander Smirnoff <a.dobeerman@gmail.com>",
+  "license": "MIT"
 }
