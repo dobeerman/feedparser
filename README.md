@@ -5,13 +5,13 @@ RSS and Atom parser
 ### Installation
 
 ```
-$ npm install dobeerman/feedparser
+$ npm install --save @dobeerman/feedparser
 ```
 
 or using `yarn`:
 
 ```
-$ yarn add dobeerman/feedparser
+$ yarn add @dobeerman/feedparser
 ```
 
 ### Usage
