@@ -3,7 +3,8 @@
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "iconv-lite": "^0.4.19",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.19",
+    "snyk": "^1.161.1"
   },
   "name": "@dobeerman/feedparser",
   "version": "0.0.1",
@@ -11,5 +12,10 @@
   "main": "index.js",
   "repository": "git@github.com:dobeerman/feedparser.git",
   "author": "Alexander Smirnoff <a.dobeerman@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
